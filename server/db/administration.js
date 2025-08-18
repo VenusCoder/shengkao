@@ -1,0 +1,98 @@
+module.exports = (config) => {
+  return [
+    {
+      iid: 0,
+      title: '同向出发，中间相遇问题',
+      paper: '甲乙两人从A地同时出发，已知两人第一次相遇时，距离中点100米......',
+      path: '/detail',
+      image: `${config.assets.imageBaseUrl}/upload/szdic157cm3u157077idml9i5.png`,
+      name: 'list',
+      content: 'xingcheng',
+    },
+    {
+      iid: 1,
+      title: '早晚出发，中途相遇问题',
+      paper: '甲乙两人从A地同时出发，已知两人第一次相遇时，距离中点100米......',
+      path: '/detail',
+      image: `${config.assets.imageBaseUrl}/upload/szdic157cm3u157077idml9i5.png`,
+      name: 'list',
+      content: 'xingcheng',
+    },
+    {
+      iid: 2,
+      title: '相向而行，中间相遇问题',
+      paper: '甲乙两人从A地同时出发，已知两人第一次相遇时，距离中点100米......',
+      path: '/detail',
+      image: `${config.assets.imageBaseUrl}/upload/szdic157cm3u157077idml9i5.png`,
+      name: 'list',
+      content: 'xingcheng',
+    },
+    {
+      iid: 3,
+      title: '同一地点出发，中间相遇问题',
+      paper: '甲乙两人从A地同时出发，已知两人第一次相遇时，距离中点100米......',
+      path: '/detail',
+      image: `${config.assets.imageBaseUrl}/upload/szdic157cm3u157077idml9i5.png`,
+      name: 'list',
+      content: 'xingcheng',
+    },
+    {
+      iid: 4,
+      title: '不同地点出发，中间相遇问题',
+      paper: '甲乙两人从A地同时出发，已知两人第一次相遇时，距离中点100米......',
+      path: '/detail',
+      image: `${config.assets.imageBaseUrl}/upload/szdic157cm3u157077idml9i5.png`,
+      name: 'list',
+      content: 'xingcheng',
+    },
+    {
+      iid: 5,
+      title: '提速出发，中间相遇问题',
+      paper: '甲乙两人从A地同时出发，已知两人第一次相遇时，距离中点100米......',
+      path: '/detail',
+      image: `${config.assets.imageBaseUrl}/upload/szdic157cm3u157077idml9i5.png`,
+      name: 'list',
+      content: 'xingcheng',
+    },
+    {
+      iid: 6,
+      title: '中间提速出发，中间相遇问题',
+      paper: '甲乙两人从A地同时出发，已知两人第一次相遇时，距离中点100米......',
+      path: '/detail',
+      image: `${config.assets.imageBaseUrl}/upload/szdic157cm3u157077idml9i5.png`,
+      name: 'list',
+      content: 'xingcheng',
+    },
+    {
+      iid: 7,
+      title: '太多人',
+      paper: '甲乙两人从A地同时出发，已知两人第一次相遇时，距离中点100米......',
+      path: '/detail',
+      image: `${config.assets.imageBaseUrl}/upload/szdic157cm3u157077idml9i5.png`,
+      name: 'list',
+      content: 'xingcheng',
+    },
+    {
+      iid: 8,
+      title: '不一样的',
+      paper: '甲乙两人从A地同时出发，已知两人第一次相遇时，距离中点100米......',
+      path: '/detail',
+      image: `${config.assets.imageBaseUrl}/upload/szdic157cm3u157077idml9i5.png`,
+      name: 'list',
+      content: 'xingcheng',
+    },
+    {
+      iid: 9,
+      title: '时光慢些',
+      paper: '甲乙两人从A地同时出发，已知两人第一次相遇时，距离中点100米......',
+      path: '/detail',
+      image: `${config.assets.imageBaseUrl}/upload/szdic157cm3u157077idml9i5.png`,
+      name: 'list',
+      content: 'xingcheng',
+    },
+  ]
+}
+
+// const adminListData =
+
+// module.exports = adminListData
