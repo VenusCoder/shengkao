@@ -51,13 +51,11 @@ export const useAdminDetailStore = defineStore('admindetail', {
       //实验  getAdminRequest
 
       const res = await getAdminDetailRequest(iid)
-      // console.log(res, '行测技巧的详情页')
 
       this.adminDetaildemo = res.data.data.findAdminDetailData
 
       this.options = res.data.data.findAdminDetailData[0].options
       this.meta = res.data.data.findAdminDetailData[0].meta
-      // console.log(this.meta, 'meta数据')
     },
   },
   persist: true,

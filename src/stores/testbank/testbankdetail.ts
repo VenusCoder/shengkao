@@ -54,8 +54,7 @@ export const useTestBankDetailStore = defineStore('testbankdetail', {
 
       this.testbankdetailDatas = res.data.data.findTestAdminDetailData
       this.meta=this.testbankdetailDatas[0]?.questions.meta
-      // console.log(this.testbankdetailDatas, '平均数题库详情页的数据')
-      // this.optionsData=res.data.data.findTestAdminDetailData[0].questions.options
+   
     },
   },
   persist: true,

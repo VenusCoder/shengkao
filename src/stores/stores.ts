@@ -39,26 +39,20 @@ export const useLoginStore = defineStore('login', {
     //左侧导航栏
     async loginResult(iid: number) {
       const res=await getNavRequest(iid)
-      //  console.log(res, '主导航栏数据')
       
         this.navdemo = res.data.data.findNavData
 
        
-        // this.iid = res.data.data.findNavData.iid
-
         
-      
 
     },
 
     //行测技巧列表数据
     async adminResultAction(adminlist: any) {
       const res = await postAdminListRequest(adminlist)
-      // console.log(res, '行测技巧列表数据')
 
       this.admindemo = res.data.data.list
       this.total = res.data.data.pagination.total
-      // console.log(res, '888888')
     },
   },
   persist: true,
