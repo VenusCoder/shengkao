@@ -16,12 +16,12 @@
 
 module.exports = {
   db: {
-    host: 'www.shengkao.top', // 直接使用默认值
+    host: '140.210.14.215', // 直接使用默认值
     port: 27017,
     name: 'imageDB',
   },
   assets: {
-    imageBaseUrl: 'http://www.shengkao.top:2000',
+    imageBaseUrl: 'http://140.210.14.215:2000',
   },
   server: {
     host: '0.0.0.0',
