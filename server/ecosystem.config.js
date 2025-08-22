@@ -1,43 +1,4 @@
-// module.exports = {
-//   apps: [
-//     {
-//       name: 'shengkao',
-//       script: './bin/www',
-//       // 移除全局 env，改用 env_ 命名空间
-//       env: {
-//         // 空对象，防止污染
-//       },
 
-//       env_production: {
-//         NODE_ENV: 'production',
-//         SERVER_HOST: '0.0.0.0',
-//         SERVER_PORT: '2000',
-//         DB_HOST: 'www.shengkao.top',
-//         DB_PORT: '27017',
-//         DB_NAME: 'imageDB',
-//         IMAGE_BASE_URL: 'http://www.shengkao.top:2000',
-//       },
-//       // 添加开发环境配置
-//       env_development: {
-//         NODE_ENV: 'development',
-//         // 确保覆盖所有必要变量
-//         DB_HOST: '127.0.0.1',
-//         DB_PORT: '27017',
-//         DB_NAME: 'imageDB_dev',
-//         IMAGE_BASE_URL: 'http://127.0.0.1:2000',
-//         SERVER_HOST: '0.0.0.0',
-//         SERVER_PORT: '2000',
-//       },
-//       log_date_format: 'YYYY-MM-DD HH:mm Z',
-//       error_file: 'logs/error.log',
-//       out_file: 'logs/out.log',
-//       merge_logs: true,
-//       autorestart: true,
-//       watch: false,
-//       max_memory_restart: '1G',
-//     },
-//   ],
-// }
 
 module.exports = {
   apps: [
