@@ -19,12 +19,17 @@ export default defineConfig({
   },
   //配置根路径，解决部署到服务器之后绝对路径会报404问题，所以需改为相对路径
   base: './',
-  // server: {
-  //   proxy: {
-  //     '/home': {
-  //       target: 'http://8.138.87.146:3000',
-  //       changeOrigin: true,
-  //     },
-  //   },
-  // },
+  server: {
+    proxy: {
+      // 将所有 `/api` 请求代理到后端服务
+      '/api': {
+        target: 'http://140.210.14.215:2000', // 目标服务器地址
+        changeOrigin: true, // 修改请求头中的 origin
+        rewrite: (path) => path.replace(/^\/api/, ''), // 移除路径前缀
+      },
+    },
+  },
+  build: {
+    chunkSizeWarningLimit: 2000, // 将限制提高到 1000kB
+  },
 })

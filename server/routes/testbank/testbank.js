@@ -4,11 +4,9 @@ const TestAdminDetailController = require('../../controllers/testbank/testadminb
 
 const TestAnswerController = require('../../controllers/testbank/testanswer/testanswer')
 
+router.post('/api/testbank', TestbankListController.getTestBankList)
 
-router.post('/testbank', TestbankListController.getTestBankList)
-
-router.post('/testadmindetail', TestAdminDetailController.getTestAdminDetail)
-router.post('/testanswer', TestAnswerController.postTestAnswer)
-
+router.post('/api/testadmindetail', TestAdminDetailController.getTestAdminDetail)
+router.post('/api/testanswer', TestAnswerController.postTestAnswer)
 
 module.exports = router

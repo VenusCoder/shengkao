@@ -6,9 +6,7 @@ router.get('/', async (ctx, next) => {
     title: '这是首页',
   })
 })
-
-
-
-router.get('/home', navController.getNavData)
+//首页数据
+router.get('/api/home', navController.getNavData)
 
 module.exports = router

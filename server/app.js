@@ -43,7 +43,7 @@ app.use(
   cors({
     origin: function (ctx) {
       // 允许来自 http://www.shengkao.top 的请求
-      if (ctx.header.origin && ctx.header.origin.includes('shengkao.top')) {
+      if (ctx.header.origin && ctx.header.origin.includes('http://140.210.14.215')) {
         return ctx.header.origin
       }
       // 开发环境允许所有来源
